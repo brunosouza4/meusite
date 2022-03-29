@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../style.css'
-import api from '../api';
 import Header from '../Header';
 import { useContext, useState, useEffect } from 'react';
 import { CartContext } from '../CartContext';
