@@ -22,9 +22,10 @@ Foi criado também uma lógica para que caso um produto seja adicionado ao carri
 
 Com essa lista, foi possível adicionar um contador de produtos no Cabeçalho, e também exibir quais são os produtos escolhidos dentro do carrinho.
 
+Dentro do carrinho, criei um botão para remover produtos do carrinho, assim como a opção de escolher a quantidade de itens e ver o preço total daquele item.
+
 ## O que faltou
 Criação de uma ferramenta de filtro para os produtos na tela inicial;
-Criação da interface do carrinho de compras para exibir os produtos que foram listados no JSON;
 Criação do formulário de cadastro do cliente;
 Salvar o carrinho e o formulário em um banco de dados ao final da compra;
 
@@ -38,7 +39,6 @@ npm install --save axios
 ```sh
 npm install react-router-dom@6
 ```
-
 
 
 
