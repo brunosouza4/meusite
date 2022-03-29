@@ -18,6 +18,8 @@ Para que os produtos do carrinho fossem reconhecidos tanto no arquivo carrinho.j
 
 Dentro dessa lógica do Context, sempre se clicar o botão comprar em um produto na tela inicial, ele será adicionado a uma lista JSON de produtos chamada de 'cart'.
 
+Dentro das funções do Context, após realizar cada passo, a informação é salva também no armazenamento local do navegador, para caso o usuário atualize a página, ele não perca as informações do carrinho.
+
 Foi criado também uma lógica para que caso um produto seja adicionado ao carrinho mais de uma vez, fosse acrescentado em um contador de quantidade.
 
 Com essa lista, foi possível adicionar um contador de produtos no Cabeçalho, e também exibir quais são os produtos escolhidos dentro do carrinho.
