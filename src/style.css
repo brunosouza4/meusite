@@ -91,6 +91,8 @@
 
 }
 
+
+
 .produtos{
     display: flex;
     flex-direction:line;
@@ -110,6 +112,10 @@
     
 
 }
+
+
+
+
 .caixaProduto{
     display: flex;
     flex-direction:column;
@@ -122,6 +128,48 @@
     margin-left: 10px;
     width: 400px;
     height: 550px;
+    
+}
+
+.produtoslinhaCarrinho{
+    margin-top: 30px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+
+}
+.produtosCarrinho{
+    display: flex;
+    flex-direction:line;
+    flex-wrap: wrap;
+    justify-content:center;
+    background-color: rgb(136, 136, 136);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    align-items: center;
+
+}
+
+.caixaProdutoCarrinho{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 400px;
+    height: 410px;
     
 }
 
